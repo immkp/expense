@@ -14,7 +14,7 @@
     "webpack-cli": "^5.0.1"
   },
   "scripts": {
-    "server": "nodemon index",
+    "server": "nodemon index.js",
     "build": "webpack --config webpack.config.js"
   },
   "author": "Manas",
