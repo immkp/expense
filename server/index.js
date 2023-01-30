@@ -34,6 +34,8 @@ app.get('/api/transactions',async(req,res)=>{
 
 })
 
-if (process.env.API_PORT) app.listen(process.env.API_PORT)
+app.listen(5000, () =>
+  console.log('server started')
+)
 
 export default  app;
